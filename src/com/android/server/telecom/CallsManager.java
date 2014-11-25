@@ -94,6 +94,7 @@ public final class CallsManager extends Call.ListenerBase {
     private static final int MAXIMUM_OUTGOING_CALLS = 1;
     private static final int MAXIMUM_DSDA_LIVE_CALLS = 2;
     private static final int MAXIMUM_DSDA_HOLD_CALLS = 2;
+    private static final int MAXIMUM_TOP_LEVEL_CALLS = 10;
 
     private static final int[] LIVE_CALL_STATES =
             {CallState.CONNECTING, CallState.DIALING, CallState.ACTIVE};
