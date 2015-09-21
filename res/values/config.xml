@@ -38,4 +38,7 @@
 
     <!-- Flag indicating if the tty is enabled -->
     <bool name="tty_enabled">false</bool>
+
+    <!-- Flag to enable the use of realcall parameter -->
+    <bool name="enable_realcall">false</bool>
 </resources>
