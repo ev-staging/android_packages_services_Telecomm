@@ -2,6 +2,9 @@
 android_app {
     name: "Telecom",
     libs: ["telephony-common"],
+    static_libs: [
+        "telephony-evervolv",
+    ],
     srcs: [
         "src/**/*.java",
         "proto/**/*.proto",
